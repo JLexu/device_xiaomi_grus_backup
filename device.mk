@@ -188,7 +188,6 @@ PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.2-impl \
     android.hardware.graphics.composer@2.2-service \
     android.hardware.graphics.mapper@2.0 \
-    android.hardware.graphics.mapper@2.0-impl-qti-display \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     android.hardware.renderscript@1.0-impl \
@@ -201,6 +200,7 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.7.vendor \
     vendor.display.config@1.7 \
+    vendor.qti.hardware.display.allocator@1.0-service \
     libsdm-disp-vndapis
 
 # DRM
