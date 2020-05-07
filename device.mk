@@ -547,3 +547,8 @@ PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
     libqti_vndfwk_detect.qti
 
+#HALS
+PRODUCT_SOONG_NAMESPACES += \
+vendor/qcom/opensource/audio-hal/primary-hal \
+hardware/qcom/media \
+hardware/qcom/display
