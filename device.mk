@@ -201,7 +201,6 @@ PRODUCT_PACKAGES += \
     libvulkan \
     vendor.display.config@1.7.vendor \
     vendor.display.config@1.7 \
-    vendor.qti.hardware.display.allocator@1.0-service \
     libsdm-disp-vndapis
 
 # DRM
@@ -532,10 +531,6 @@ TARGET_COMMON_QTI_COMPONENTS := \
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService
-
-# Display calibration
-PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service.xiaomi
 
 # Config panel
 PRODUCT_PACKAGES += \
