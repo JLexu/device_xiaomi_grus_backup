@@ -558,6 +558,10 @@ PRODUCT_PACKAGES += \
 
 #HALS
 PRODUCT_SOONG_NAMESPACES += \
-vendor/qcom/opensource/audio-hal/primary-hal \
-hardware/qcom/media \
-hardware/qcom/display
+    vendor/qcom/opensource/audio-hal/primary-hal \
+    hardware/qcom/media \
+    hardware/qcom/display
+
+# ParanoidDoze
+PRODUCT_PACKAGES += \
+    ParanoidDoze
