@@ -1,0 +1,57 @@
+[
+    {
+        "repository": "JLexu/device_xiaomi_grus",
+        "target_path": "device/xiaomi/grus",
+        "remote": "github",
+        "branch": "lineage-17.0"
+    },
+    {
+        "repository": "JLexu/vendor_xiaomi_grus",
+        "target_path": "vendor/xiaomi/grus",
+        "remote": "github",
+        "branch": "lineage-17.0"
+    },
+    {
+        "repository": "JLexu/kowalski-grus",
+        "target_path": "kernel/xiaomi/grus",
+        "remote": "github",
+        "branch": "dev"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_device_qcom_common",
+        "target_path":  "device/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "blobs",
+        "repository":   "proprietary_vendor_qcom_common",
+        "target_path":  "vendor/qcom/common",
+        "revision":     "quartz"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_audio",
+        "target_path":  "vendor/qcom/opensource/audio-hal/primary-hal",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_display",
+        "target_path":  "hardware/qcom/display",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_hardware_qcom_media",
+        "target_path":  "hardware/qcom/media",
+        "revision":     "quartz-845"
+    },
+    {
+        "remote":       "aospa",
+        "repository":   "AOSPA/android_vendor_qcom_opensource_commonsys-intf_display",
+        "target_path":  "vendor/qcom/opensource/commonsys-intf/display",
+        "revision":     "quartz"
+    }
+]
+

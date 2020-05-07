@@ -14,8 +14,8 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-	$(LOCAL_DIR)/lineage_grus.mk
+	$(LOCAL_DIR)/pa_grus.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_grus-userdebug \
-    lineage_grus-eng
+    pa_grus-userdebug \
+    pa_grus-eng
