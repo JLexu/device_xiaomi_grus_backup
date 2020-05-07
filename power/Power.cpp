@@ -122,7 +122,7 @@ Return<void> Power::setFeature(Feature feature, bool activate)  {
     feature_t feat = static_cast<feature_t>(feature);
     switch (feat) {
 #ifdef TAP_TO_WAKE_NODE
-        case POWER_FEATURE_DOUBLE_TAP_TO_WAKE: {
+        case POWER_FEATURE_DOUBLE_TAP: {
             int fd = open(TAP_TO_WAKE_NODE, O_RDWR);
             struct input_event ev; 
             ev.type = EV_SYN;
