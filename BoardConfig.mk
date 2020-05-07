@@ -233,6 +233,7 @@ TARGET_COPY_OUT_VENDOR := vendor
 # QCOM
 BOARD_USES_QCOM_HARDWARE := true
 BOARD_USES_QC_TIME_SERVICES := true
+TARGET_USES_QCOM_BSP := true
 
 # Releasetools
 TARGET_RECOVERY_UPDATER_LIBS := librecovery_updater_xiaomi
