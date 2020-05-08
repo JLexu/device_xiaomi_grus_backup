@@ -290,6 +290,9 @@ PRODUCT_PACKAGES += \
     qti_telephony_utils.xml \
     telephony-ext
 
+PRODUCT_BOOT_JARS += \
+    telephony-ext
+
 # Input
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/keylayout/gpio-keys.kl:system/usr/keylayout/gpio-keys.kl \
@@ -488,6 +491,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libaacwrapper \
     libnl
+
+PRODUCT_BOOT_JARS += \
+    WfdCommon
 
 # Input
 PRODUCT_COPY_FILES += \
