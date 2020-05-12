@@ -539,8 +539,8 @@ PRODUCT_PACKAGES += \
     ConfigPanel
 
 # Xiaomi Parts
-PRODUCT_PACKAGES += \
-    XiaomiParts
+# PRODUCT_PACKAGES += \
+#    XiaomiParts
 
 # vndfwk
 PRODUCT_PACKAGES += \
