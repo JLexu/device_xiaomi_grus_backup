@@ -556,7 +556,8 @@ PRODUCT_SOONG_NAMESPACES += \
 # ParanoidDoze
 PRODUCT_PACKAGES += \
     ParanoidDoze
-=
+
+#HideNotch
 PRODUCT_PACKAGES += \
     NoCutoutOverlay
 
