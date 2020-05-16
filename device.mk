@@ -528,7 +528,12 @@ PRODUCT_PACKAGES += \
     qti-telephony-common
 
 # QTI common
-TARGET_COMMON_QTI_COMPONENTS := perf
+TARGET_COMMON_QTI_COMPONENTS := \
+    av \
+    bt \
+    perf \
+    telephony \
+    wfd
 
 # ANT+
 PRODUCT_PACKAGES += \
