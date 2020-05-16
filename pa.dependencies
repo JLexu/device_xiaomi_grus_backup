@@ -9,13 +9,13 @@
         "repository": "JLexu/vendor_xiaomi_grus",
         "target_path": "vendor/xiaomi/grus",
         "remote": "github",
-        "branch": "q"
+        "branch": "lineage-17.0"
     },
     {
         "repository": "JLexu/kowalski-grus",
         "target_path": "kernel/xiaomi/grus",
         "remote": "github",
-        "branch": "dev-q"
+        "branch": "dev"
     },
     {
         "remote":       "aospa",
