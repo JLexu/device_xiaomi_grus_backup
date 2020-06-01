@@ -1015,8 +1015,6 @@
         </interface>
         <fqname>@1.0::IFingerprintInscreen/default</fqname>
     </hal>
-<<<<<<< HEAD
-=======
     <hal format="hidl">
         <name>vendor.lineage.trust</name>
         <transport>hwbinder</transport>
@@ -1026,8 +1024,6 @@
             <instance>default</instance>
         </interface>
     </hal>
-
->>>>>>> 957df5b... gps: switch to caf implementation (1/2)
     <sepolicy>
         <version>29.0</version>
     </sepolicy>
