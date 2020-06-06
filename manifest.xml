@@ -125,7 +125,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IGnss/default</fqname>
-        <fqname>@1.0::IGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
         <name>android.hardware.gnss</name>
@@ -505,16 +504,6 @@
             <instance>default</instance>
         </interface>
         <fqname>@1.0::IEsePowerManager/default</fqname>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.gnss</name>
-        <transport>hwbinder</transport>
-        <version>1.2</version>
-        <interface>
-            <name>ILocHidlGnss</name>
-            <instance>gnss_vendor</instance>
-        </interface>
-        <fqname>@1.2::ILocHidlGnss/gnss_vendor</fqname>
     </hal>
     <hal format="hidl">
         <name>vendor.qti.hardware.alarm</name>
@@ -1026,6 +1015,19 @@
         </interface>
         <fqname>@1.0::IFingerprintInscreen/default</fqname>
     </hal>
+<<<<<<< HEAD
+=======
+    <hal format="hidl">
+        <name>vendor.lineage.trust</name>
+        <transport>hwbinder</transport>
+        <version>1.0</version>
+        <interface>
+            <name>IUsbRestrict</name>
+            <instance>default</instance>
+        </interface>
+    </hal>
+
+>>>>>>> 957df5b... gps: switch to caf implementation (1/2)
     <sepolicy>
         <version>29.0</version>
     </sepolicy>
