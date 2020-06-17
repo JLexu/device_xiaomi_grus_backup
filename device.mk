@@ -530,11 +530,6 @@ TARGET_COMMON_QTI_COMPONENTS := perf
 PRODUCT_PACKAGES += \
     AntHalService
 
-
-# Xiaomi Parts
-# PRODUCT_PACKAGES += \
-#    XiaomiParts
-
 # vndfwk
 PRODUCT_PACKAGES += \
     libqti_vndfwk_detect \
