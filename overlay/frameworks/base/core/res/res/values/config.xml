@@ -1129,4 +1129,6 @@
 
     <bool name="config_ui_enableFadingMarquee">false</bool>
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+    <bool name="config_hasVowifi">true</bool>
+
 </resources>
