@@ -1129,6 +1129,15 @@
 
     <bool name="config_ui_enableFadingMarquee">false</bool>
     <bool name="config_ignoreRssnrSignalLevel">true</bool>
+    <bool name="config_smartChargingAvailable">true</bool>
+
+    <!-- System info -->
+    <string name="config_sysCPUTemp">/sys/class/thermal/thermal_zone5/temp</string>
+    <string name="config_sysBatteryTemp">/sys/class/power_supply/battery/temp</string>
+    <string name="config_sysGPUFreq">/sys/kernel/gpu/gpu_clock</string>
+    <string name="config_sysGPULoad">/sys/kernel/gpu/gpu_busy</string>
+    <integer name="config_sysCPUTempMultiplier">10000</integer>
+    <integer name="config_sysBatteryTempMultiplier">10</integer>
     <bool name="config_hasVowifi">true</bool>
 
 </resources>
