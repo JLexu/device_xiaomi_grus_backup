@@ -518,6 +518,7 @@ PRODUCT_PACKAGES += \
     libldacBT_abr \
     hwaddrs \
     libbt-vendor \
+    libbtconfigstore \
     vendor.qti.hardware.btconfigstore@1.0
 
 # qti telephony
@@ -546,4 +547,10 @@ PRODUCT_SOONG_NAMESPACES += \
 PRODUCT_PACKAGES += \
     ParanoidDoze
 
-
+# Override Apps
+PRODUCT_PACKAGES += \
+    SimpleGalleryPro \
+    SimpleCalculator \
+    Exchange2 \
+    Email \
+    CustomDoze
