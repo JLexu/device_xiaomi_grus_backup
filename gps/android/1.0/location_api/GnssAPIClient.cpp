@@ -339,8 +339,7 @@ void GnssAPIClient::onCapabilitiesCb(LocationCapabilitiesMask capabilitiesMask)
                 gnssInfo.yearOfHw++; // 2017
                 if (capabilitiesMask & LOCATION_CAPABILITIES_CONSTELLATION_ENABLEMENT_BIT ||
                     capabilitiesMask & LOCATION_CAPABILITIES_AGPM_BIT) {
-                    gnssInfo.yearOfHw++; // 2018
-                }
+                    gnssInfo.yearOfHw++; // 2018                }
             }
         }
         LOC_LOGV("%s:%d] set_system_info_cb (%d)", __FUNCTION__, __LINE__, gnssInfo.yearOfHw);
